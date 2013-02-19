@@ -7,6 +7,7 @@ echo
 #Show who you are running as:
 user=`whoami`
 echo "Running as user:$user"
+echo 
 
 #Read In Varibles and interprete as commands 
 cmd=$QUERY_STRING
